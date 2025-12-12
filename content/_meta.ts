@@ -2,11 +2,11 @@ export default {
   'index': { display: 'hidden' },
   'troubleshooting': 'Troubleshooting',
   'api-reference': {
-    title: 'API Reference',
+    title: 'Custom Menu Title Text',
     type: 'menu',
     items: {
-      'petstore-api': { title: 'Petstore API', href: '/api-docs/petstore-api' },
-      'jolli-api': { title: 'jolli-api', href: '/api-docs/jolli-api' }
+      'petstore-api': { title: 'Custom OpenAPI Text 1', href: '/api-docs/petstore-api' },
+      'jolli-api': { title: 'Custom OpenAPI Text 2', href: '/api-docs/jolli-api' }
     }
   }
 }
