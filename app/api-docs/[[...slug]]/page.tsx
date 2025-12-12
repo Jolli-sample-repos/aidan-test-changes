@@ -1,11 +1,12 @@
 import { redirect, notFound } from 'next/navigation'
 import ApiReference from '../../../components/ApiReference'
 
-const VALID_SLUGS = ['jolli-api']
+const VALID_SLUGS = ['petstore-api', 'jolli-api']
 
 export function generateStaticParams() {
   return [
     { slug: [] },
+    { slug: ['petstore-api'] },
     { slug: ['jolli-api'] }
   ]
 }
@@ -18,7 +19,7 @@ export default async function ApiDocsPage(props: {
 
   // No slug provided - redirect to first API doc
   if (slugArray.length === 0) {
-    redirect('/api-docs/jolli-api')
+    redirect('/api-docs/petstore-api')
   }
 
   const slug = slugArray[0]
