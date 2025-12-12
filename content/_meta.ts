@@ -1,7 +1,7 @@
 export default {
   'index': { display: 'hidden' },
   'api-reference': {
-    title: 'API Reference',
+    title: 'Wow, Custom Text!',
     type: 'menu',
     items: {
       'petstore-api': { title: 'Petstore API', href: '/api-docs/petstore-api' },
