@@ -1,5 +1,6 @@
 export default {
   'index': { display: 'hidden' },
+  'troubleshooting': 'Troubleshooting',
   'api-reference': {
     title: 'Wow, Custom Text!',
     type: 'menu',
